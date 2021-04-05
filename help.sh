@@ -50,10 +50,10 @@ So, for example, you could run:
 
 cd '"${TOP}"'
 source build/envsetup.sh
-lunch aosp_arm-userdebug
+lunch peko_arm-userdebug
 m -j java
 
-to build all of the java code for the userdebug variant of the aosp_arm device.
+to build all of the java code for the userdebug variant of the peko_arm device.
 '
 
 echo "$message"
